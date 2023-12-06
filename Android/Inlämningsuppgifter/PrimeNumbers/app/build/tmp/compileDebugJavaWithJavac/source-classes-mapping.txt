@@ -1,0 +1,5 @@
+com/example/primenumbers/BuildConfig.java
+ com.example.primenumbers.BuildConfig
+com/example/primenumbers/MainActivity.java
+ com.example.primenumbers.MainActivity
+ com.example.primenumbers.MainActivity$1

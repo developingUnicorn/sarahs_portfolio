@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.youtubeplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:7:5-32:19
+14        android:allowBackup="true"
+14-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\admin\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.YoutubePlayer" >
+22-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:13:9-51
+23        <activity
+23-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:16:9-19:39
+24            android:name="com.example.youtubeplayer.PlayVideo"
+24-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:17:13-38
+25            android:exported="true"
+25-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:19:13-36
+26            android:parentActivityName="com.example.youtubeplayer.MainActivity" />
+26-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:18:13-55
+27
+28        <meta-data
+28-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:20:13-22:49
+29            android:name="android.support.PARENT_ACTIVITY"
+29-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:21:17-63
+30            android:value=".MainActivity" />
+30-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:22:17-46
+31
+32        <activity
+32-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:23:9-31:20
+33            android:name="com.example.youtubeplayer.MainActivity"
+33-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:24:13-41
+34            android:exported="true" >
+34-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:25:13-36
+35            <intent-filter>
+35-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:27:17-69
+36-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:29:17-77
+38-->E:\AndroidAppar\YoutubePlayer\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>

@@ -1,0 +1,270 @@
+a {
+	font-size: 1em;
+	color: black;
+}
+a:link{
+	
+}
+a:active{
+	font-size: 1.1em;
+	
+}
+a:visited{
+	font-size: 0.9em;
+}
+nav a:hover{
+	background-color: #f5f5f5;
+}
+article { 
+	position: static;
+	float:left;
+	width: 90%;
+	margin: 1em 1em 1em 3em;
+	padding: 1em;
+	
+}
+aside {
+	position: static;
+	clear: right;
+	width: 25%;
+	margin: 1em;
+	padding:1em 0 0 0;
+	border: 0.1em solid;
+	overflow: hidden;
+
+}
+
+blockquote {
+	font-size: x-large; 
+	font-style: italic;
+}
+body {
+	width:100%;
+	margin: 0;
+	background: linen; 
+	font-family: Verdana;
+	font-size: 1em;
+	color: black;
+	text-align: center;	
+	text-decoration: none;
+}
+caption{
+	margin:0.5em;
+	font-size: 0.8em;	
+}
+details{
+
+	border: none;
+	margin:2em;
+	padding: 2em;
+}
+
+fieldset{
+	margin: 1em;
+	}
+	
+
+figure{
+	margin:0;
+	padding:0;
+}
+footer{
+	position: relative;
+	clear: left;
+	margin: 1em;
+
+
+}
+form{
+	Text-align: left;
+}
+h1 {
+	color: grey;
+}
+h2{
+	color: black;
+}
+h5{
+	font-size: 1.5em;
+}
+
+
+input[type="text"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid RosyBrown;
+	box-sizing: border-box;
+}
+input[type="email"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid RosyBrown;
+	box-sizing: border-box;
+}
+input[type="url"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid RosyBrown;
+	box-sizing: border-box;
+}
+
+textarea {
+	background-color: white;
+	background-image: url('../Images/lotus.png');
+	background-repeat: no-repeat;
+	background-position: 0.1em 6.5em;
+	width: 20em;
+	height:10em;
+	resize:none;
+}
+input:focus{
+	background-color:#f5f5f5;
+	border: 0.1em solid black;
+}
+nav {
+
+	overflow: hidden;
+	width: 100%;
+}
+p {
+	 font-size: 1em; 
+	 text-align:center;
+	 color: black;
+	 text-decoration: none;
+}
+
+aside p{
+	padding: 1.5em;
+}
+
+section {
+	position: relative;
+	float: left;
+	width: 65%;
+	margin: 1em 1em 1em 5em;
+	padding:1em 0 0 0;
+	border: 0.1em solid;
+}
+ /* Formuläret */
+table {
+	float: left;
+	margin: 0 3em;
+	max-width: 40em;
+}
+tr:hover{
+	background-color: #f5f5f5;
+}
+
+table, th, td{
+	border: 0.1em solid black;
+	text-align: left;
+	padding: 1em;
+}
+/* Navigationbar */
+nav {
+	overflow: hidden;
+	width: 100%;
+	background-color:linen;
+}
+nav ul{
+	list-style:none;
+	padding: 0;
+	margin: 0 auto;
+	width:25em;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	padding: 0.5em;
+	border: 0.1em solid black;
+	border-radius: 0.5em;
+	margin: 0.25em;
+	
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index: +1;
+}
+
+/* Header */
+#desktopHeader{
+	position:relative;
+	z-index: -1;
+	width: 100%;
+	margin: auto;
+
+}
+#mobileHeader{
+	display:none;
+}
+#headerCaption{
+	font-size: 0.5em;
+	font-style: italic;
+}
+
+/* Galleriet med tavlorna */
+
+div.gallery {
+  margin: 1em;
+  border: 0.1em solid black;
+  float: left;
+ 
+}
+
+div.gallery:hover {
+  border: 0.1em solid #777;
+  transform: scale(1.05);
+}
+
+
+div.desc {
+  padding: 1em;
+  text-align: center;
+}
+
+/* Frakt och retur */
+#terms{
+	clear:right;
+	margin: 5em;
+	
+}
+/* Om mig */
+img.profile {
+	float: left;
+	margin: 1em;
+}
+p.profile{
+	float:left;
+	width:30em;
+}
+#randomImage{
+	max-width:30em;
+	max-height:50em; 
+}
+.randomImage{
+	width:35%;
+	padding: 1em;
+}
+
+.lonlySection{
+	
+	position: relative;
+	float: left;
+	width: 55%;
+	margin: 1em 1em 1em 5em;
+	padding:1em 0 0 0;
+	border: 0.1em solid;
+}

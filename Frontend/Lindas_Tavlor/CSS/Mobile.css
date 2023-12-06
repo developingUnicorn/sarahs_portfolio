@@ -1,0 +1,199 @@
+a {
+	font-size: 1em;
+	color: black;
+	background-color:linen;
+}
+a:link{
+	background-color:linen;
+}
+a:active{
+	font-size: 1.1em;
+	
+}
+a:visited{
+	font-size: 0.9em;
+}
+a:hover{
+	background-color: #f5f5f5;
+}
+article { 
+	position: static;
+	margin: 1em;
+	padding: 1em;
+	border-bottom: 0.1em solid black;
+}
+aside {
+	width: 95%;
+	padding:1em 0 0 0;
+	margin:0.2em;
+	overflow: hidden;
+
+}
+blockquote {
+	font-size: x-large; 
+	font-style: italic;
+}
+body {
+	margin: 0;
+	background: linen; 
+	font-family: Verdana;
+	font-size: 1em;
+	color: black;
+	text-align: center;	
+	text-decoration: none;
+}
+fieldset{
+	margin: 1em;
+	}
+	
+figcaption {
+	display: none;
+}
+footer{
+	position: relative;
+	padding: 1em;
+	color:black;
+}
+form{
+	Text-align: left;
+}
+h1 {
+	font: 3em italic verdana;
+	color: black;
+}
+h2{
+	color: black;
+}
+h5{
+	font-size: 1.5em;
+}
+
+input[type="text"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid black;
+	box-sizing: border-box;
+}
+input[type="email"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid black;
+	box-sizing: border-box;
+}
+input[type="url"]{
+	position:relative;
+	width: 10em;
+	height:1.5em;
+	padding:1em;
+	margin: 1em;
+	border:0.1em solid black;
+	box-sizing: border-box;
+}
+textarea {
+	background-color: white;
+	background-image: url('../Images/lotus.png');
+	background-repeat: no-repeat;
+	background-position: 0.1em 6.5em;
+	width: 20em;
+	height:10em;
+	resize:none;
+}
+
+nav {
+	overflow: hidden;
+	width: 80%;
+	background-color:linen;
+	margin: auto;
+}
+p {
+	 font-size: 1em; 
+	 color: black;
+	 text-decoration: none;
+}
+section {
+	width:95%;
+	padding:1em 0 0 0;
+	margin:0.2em;
+	
+	
+}
+table {
+	margin:5em;
+}
+tr:hover{
+	background-color: #f5f5f5;
+}
+table, th, td{
+	border: 0.1em solid black;
+	text-align: left;
+	padding: 1em;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:linen;
+	
+}
+#desktopHeader{
+	display: none;
+}
+#mobileHeader{
+	position:relative;
+	z-index: -1;
+	width: 100%;
+	margin: center;
+}
+#navigation{
+	background-color:linen;
+}
+nav ul{
+	background-color:linen;
+	list-style:none;
+	padding: 0;
+	margin: auto;
+	width:30em;
+}
+nav ul li{
+	float: left;
+	background-color:linen;
+}
+nav ul li a{
+	display: block;
+	padding: 0.5em;
+	border: 0.1em solid black;
+	border-radius: 0.5em;
+	margin: 0.25em;
+	background-color:linen;
+	
+	
+}
+div.gallery {
+  margin: 1em;
+  
+}
+div.desc {
+  padding: 1em;
+  text-align: center;
+}
+img.profile {
+	margin: 1em;
+}
+p.profile{
+	width:30em;
+	margin: 0 7em;
+}
+#randomImage{
+	max-width:30em;
+	max-height:50em; 
+}
+.randomImage{
+	width:90%;
+	margin:1em;
+}

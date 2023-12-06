@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CopyN'Paste.iml" filepath="$PROJECT_DIR$/.idea/modules/CopyN'Paste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CopyN'Paste.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CopyN'Paste.app.iml" />
+    </modules>
+  </component>
+</project>

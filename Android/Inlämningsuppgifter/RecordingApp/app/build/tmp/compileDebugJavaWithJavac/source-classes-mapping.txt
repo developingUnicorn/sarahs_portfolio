@@ -1,0 +1,4 @@
+com/example/recordingapp/BuildConfig.java
+ com.example.recordingapp.BuildConfig
+com/example/recordingapp/MainActivity.java
+ com.example.recordingapp.MainActivity

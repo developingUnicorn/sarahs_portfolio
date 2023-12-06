@@ -1,0 +1,5 @@
+com/example/callandrecive/BuildConfig.java
+ com.example.callandrecive.BuildConfig
+com/example/callandrecive/MainActivity.java
+ com.example.callandrecive.MainActivity
+ com.example.callandrecive.MainActivity$1

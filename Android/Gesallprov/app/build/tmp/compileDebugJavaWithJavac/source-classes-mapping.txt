@@ -1,0 +1,41 @@
+com/example/gesallprov/ReadText.java
+ com.example.gesallprov.ReadText
+com/example/gesallprov/SaveText.java
+ com.example.gesallprov.SaveText
+ com.example.gesallprov.SaveText$1
+com/example/gesallprov/databinding/ActivityMapBinding.java
+ com.example.gesallprov.databinding.ActivityMapBinding
+com/example/gesallprov/MapFragment.java
+ com.example.gesallprov.MapFragment
+ com.example.gesallprov.MapFragment$1
+ com.example.gesallprov.MapFragment$1$1
+com/example/gesallprov/databinding/ActivityReadTextBinding.java
+ com.example.gesallprov.databinding.ActivityReadTextBinding
+com/example/gesallprov/RecyclerAdapter.java
+ com.example.gesallprov.RecyclerAdapter
+ com.example.gesallprov.RecyclerAdapter$ViewHolder
+com/example/gesallprov/databinding/ActivitySavePhotoBinding.java
+ com.example.gesallprov.databinding.ActivitySavePhotoBinding
+com/example/gesallprov/databinding/RecyleRowBinding.java
+ com.example.gesallprov.databinding.RecyleRowBinding
+com/example/gesallprov/databinding/ActivityMainBinding.java
+ com.example.gesallprov.databinding.ActivityMainBinding
+com/example/gesallprov/Map.java
+ com.example.gesallprov.Map
+com/example/gesallprov/databinding/ActivitySaveTextBinding.java
+ com.example.gesallprov.databinding.ActivitySaveTextBinding
+com/example/gesallprov/BuildConfig.java
+ com.example.gesallprov.BuildConfig
+com/example/gesallprov/databinding/FragmentMapBinding.java
+ com.example.gesallprov.databinding.FragmentMapBinding
+com/example/gesallprov/SavePhoto.java
+ com.example.gesallprov.SavePhoto
+ com.example.gesallprov.SavePhoto$1
+ com.example.gesallprov.SavePhoto$2
+ com.example.gesallprov.SavePhoto$3
+com/example/gesallprov/MainActivity.java
+ com.example.gesallprov.MainActivity
+ com.example.gesallprov.MainActivity$1
+ com.example.gesallprov.MainActivity$2
+ com.example.gesallprov.MainActivity$3
+ com.example.gesallprov.MainActivity$4
