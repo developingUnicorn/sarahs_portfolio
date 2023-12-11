@@ -29,7 +29,6 @@ def test_main_should_output_file_with_pairings():
 
 @pytest.fixture
 def mock_shuffle(monkeypatch):
-
     def shuffle(*args, **kwargs):
         pass
 
@@ -50,7 +49,13 @@ def test_main_should_output_a_different_pairings_every_run(persons):
 
 def test_read_file():
     persons = read_file("folks.txt")
-    assert persons == {"sarah": "haras", "haras": "sofia", "sofia": "sarah"}
+    assert persons == {'Hakan': 'Nicole',
+                       'Helene': 'Hakan',
+                       'Jacob': 'Sarah',
+                       'Jesper': 'Jacob',
+                       'Lucas': 'Helene',
+                       'Nicole': 'Jesper',
+                       'Sarah': 'Lucas'}
 
 
 def test_generate_pairs_should_not_pair_with_self(persons):
