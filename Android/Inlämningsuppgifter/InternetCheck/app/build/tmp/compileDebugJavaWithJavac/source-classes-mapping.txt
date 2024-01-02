@@ -1,5 +1,0 @@
-com/example/internetcheck/MainActivity.java
- com.example.internetcheck.MainActivity
- com.example.internetcheck.MainActivity$1
-com/example/internetcheck/BuildConfig.java
- com.example.internetcheck.BuildConfig

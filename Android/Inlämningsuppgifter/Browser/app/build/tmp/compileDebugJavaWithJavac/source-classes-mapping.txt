@@ -1,7 +1,0 @@
-com/example/browser/MainActivity.java
- com.example.browser.MainActivity
- com.example.browser.MainActivity$1
- com.example.browser.MainActivity$2
- com.example.browser.MainActivity$3
-com/example/browser/BuildConfig.java
- com.example.browser.BuildConfig

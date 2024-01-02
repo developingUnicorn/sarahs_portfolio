@@ -1,6 +1,0 @@
-com/example/map/BuildConfig.java
- com.example.map.BuildConfig
-com/example/map/MainActivity.java
- com.example.map.MainActivity
- com.example.map.MainActivity$1
- com.example.map.MainActivity$1$1

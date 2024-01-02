@@ -1,4 +1,0 @@
-#Mon Aug 30 12:06:24 CEST 2021
-base.0=E\:\\AndroidAppar\\FirstApp\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

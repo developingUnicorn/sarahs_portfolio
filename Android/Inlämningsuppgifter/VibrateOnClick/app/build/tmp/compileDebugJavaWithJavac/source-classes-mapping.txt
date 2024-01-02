@@ -1,5 +1,0 @@
-com/example/vibrateonclick/MainActivity.java
- com.example.vibrateonclick.MainActivity
- com.example.vibrateonclick.MainActivity$1
-com/example/vibrateonclick/BuildConfig.java
- com.example.vibrateonclick.BuildConfig

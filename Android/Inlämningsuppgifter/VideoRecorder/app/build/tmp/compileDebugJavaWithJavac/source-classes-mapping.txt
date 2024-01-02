@@ -1,4 +1,0 @@
-com/example/videorecorder/BuildConfig.java
- com.example.videorecorder.BuildConfig
-com/example/videorecorder/MainActivity.java
- com.example.videorecorder.MainActivity
