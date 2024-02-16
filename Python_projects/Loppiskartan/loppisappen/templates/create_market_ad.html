@@ -1,0 +1,9 @@
+
+{% block content %}
+Create Market Ad
+<form method="post" action="/create_market_ad/">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit", name="Create Ad">Create new market ad</button>
+</form>
+{% endblock %}
