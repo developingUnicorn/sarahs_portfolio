@@ -7,8 +7,6 @@ Django beginners tutorial in the works.
 ## Java
 Java program for creating and calculating inventory for a store.
 
-## Unity
-TicTacToe game.
 
 ## Frontend
 Kajakklubben, A basic webpage made for a school course. HTML, CSS.
