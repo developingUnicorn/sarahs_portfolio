@@ -97,3 +97,5 @@ def test_generate_strings():
     random_string = generate_strings()
     assert type(random_string) == str
     assert len(random_string) > 3
+
+

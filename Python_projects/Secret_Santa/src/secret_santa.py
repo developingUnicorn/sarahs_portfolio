@@ -24,4 +24,4 @@ def main(filename):
     write_to_file(filename, pairings)
 
 
-main("secretsanta.txt")
+main("secret_santa.txt")
