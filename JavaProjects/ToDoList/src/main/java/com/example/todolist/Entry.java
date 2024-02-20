@@ -13,6 +13,9 @@ public class Entry {
         return entry;
     }
 
+    public void check(){
+         checked = !checked;
+    }
     public boolean isChecked(){
         return checked;
     }

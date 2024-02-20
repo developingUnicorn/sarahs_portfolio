@@ -16,4 +16,11 @@ class EntryTest {
         Entry entry = new Entry("test entry");
         assertFalse(entry.isChecked());
     }
+
+    @Test
+    void testCheckedIsTrue(){
+        Entry entry = new Entry("test entry");
+        entry.check();
+        assertTrue(entry.isChecked());
+    }
 }

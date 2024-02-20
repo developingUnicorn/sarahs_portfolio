@@ -27,4 +27,13 @@ class ToDoListTest {
         toDoList.addEntry(new Entry("apples"));
         assertFalse(toDoList.getEntries().isEmpty());
     }
+
+    @Test
+    void deleteEntryFromList(){
+        ToDoList toDoList = new ToDoList("Shopping");
+        Entry entry = new Entry("apples");
+        toDoList.addEntry(entry);
+        toDoList.deleteEntry(entry);
+        assertTrue(toDoList.getEntries().isEmpty());
+    }
 }

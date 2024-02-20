@@ -21,4 +21,8 @@ public class ToDoList {
     public void addEntry(Entry entry){
         entries.add(entry);
     }
+
+    public void deleteEntry(Entry entry){
+        entries.remove(entry);
+    }
 }
