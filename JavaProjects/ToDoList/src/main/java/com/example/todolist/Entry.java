@@ -21,6 +21,6 @@ public class Entry {
     }
 
     public String toString(){
-        return entry + ", " + checked;
+        return entry + ", " + checked + "\n";
     }
 }

@@ -18,6 +18,9 @@ public class ToDoList {
         return entries;
     }
 
+    private Entry getEntry(int index) {
+        return entries.get(index);
+    }
     public void addEntry(Entry entry){
         entries.add(entry);
     }
@@ -25,4 +28,13 @@ public class ToDoList {
     public void deleteEntry(Entry entry){
         entries.remove(entry);
     }
+
+    public String toString(){
+        String string = title + "\n";
+        for (Entry entry : entries)
+            string += entry.toString();
+        return string;
+    }
+
+
 }

@@ -36,4 +36,17 @@ class ToDoListTest {
         toDoList.deleteEntry(entry);
         assertTrue(toDoList.getEntries().isEmpty());
     }
+
+    @Test
+    void printToDoList(){
+        ToDoList toDoList = new ToDoList("shopping");
+        Entry entry = new Entry("apples");
+        toDoList.addEntry(entry);
+        toDoList.addEntry(new Entry("bananas"));
+        String expected = "shopping\n" +
+        "apples, false\n" +
+        "bananas, false\n";
+
+        assertEquals(expected, toDoList.toString());
+    }
 }
