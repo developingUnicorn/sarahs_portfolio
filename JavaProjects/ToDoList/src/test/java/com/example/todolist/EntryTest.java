@@ -23,4 +23,10 @@ class EntryTest {
         entry.check();
         assertTrue(entry.isChecked());
     }
+
+    @Test
+    void testPrintEntry(){
+        Entry entry = new Entry("clean closet");
+        assertEquals("clean closet, false", entry.toString());
+    }
 }

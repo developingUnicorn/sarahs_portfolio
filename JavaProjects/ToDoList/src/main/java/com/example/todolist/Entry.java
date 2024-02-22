@@ -19,4 +19,8 @@ public class Entry {
     public boolean isChecked(){
         return checked;
     }
+
+    public String toString(){
+        return entry + ", " + checked;
+    }
 }
